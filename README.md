@@ -1,5 +1,5 @@
-Extended Lexical Framework
+Extended Lexical Framework - a [DATR][datr] library
 
-A [DATR][datr] library
+Author: Roger Evans
 
 [datr]: http://www.datr.org.uk/
