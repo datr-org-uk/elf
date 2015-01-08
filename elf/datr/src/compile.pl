@@ -160,7 +160,7 @@ datr_compile_var([],true) :- !.
 datr_compile_var([datr_var(V,NV)|VT],(datr_var_member(NV,V),T)) :- !,
 	% no checking for vars that start with two $ signs (char 36)
 	(db_name(V,[36,36|_]) -> T = T2; T=(datr_var_member(NV,V),T2)),
-    datr_compile_var(VT,T).
+    datr_compile_var(VT,T2).
 
 
 %   Build the tail for a quoted descriptor
